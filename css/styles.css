@@ -205,6 +205,8 @@ ul > .antenna-box {
     border-radius: 4px;
 background: var(--CLOUD, #F4F4FD);
 display: inline-flex;
+align-items: center;
+justify-content: center;
 }
 .strategy {
     margin-top: 120px;
@@ -252,6 +254,16 @@ letter-spacing: 0.32px;
     .punctuality ul {
         list-style-type: none;
     }
+    ul > .clock-box {
+        width: 264px;
+        height: 112px;
+        flex-shrink: 0;
+        border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
     .diligence {
         margin-top: 120px;
         margin-left: 24px;
@@ -281,6 +293,20 @@ letter-spacing: 0.32px;
     .diligence ul {
         list-style-type: none;
     }
+    ul > .diagram-box {
+        width: 264px;
+        height: 112px;
+        flex-shrink: 0;
+        border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .Technology {
+        margin-top: 120px;
+        margin-left: 24px;
+    }
     .Technology h3 {
         width: 264px;
         color: var(--NAVY-BLUE, #2E2F42);
@@ -292,10 +318,7 @@ letter-spacing: 0.32px;
         line-height: 24px; /* 120% */
         letter-spacing: 0.4px;
     }
-    .Technology {
-        margin-top: 120px;
-        margin-left: 24px;
-    }
+    
     .Technology li {
         width: 264px;
         color: var(--SLATE, #434455);
@@ -313,6 +336,16 @@ letter-spacing: 0.32px;
         margin-left: 0px;
         padding-left: 0px;
         
+    }
+    ul > .astronaut-box {
+        width: 264px;
+        height: 112px;
+        flex-shrink: 0;
+        border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     }
     .image > h2 {
         width: 324px;
