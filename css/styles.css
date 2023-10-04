@@ -138,7 +138,7 @@ width: 1440px;
 height: 600px;
 flex-shrink: 0;
 align-items: center;
-background: url("path-to-images/people-office 1(2).jpg"), lightgray 0px -167.766px / 100% 139.922% no-repeat;
+background: url("https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1697414400&Signature=UOKmSttpP9FhwiVmMGnFl8uWwL329u-CKXr0QcWM1V9ljKMGfpf4oq0UGDHeQLZlpucGtcAOgEgZp3htMoTSMEaaiipmBSdaFwku7osIxkprTJ~Qp1FJ-srQm5CzEEOS8ZrnN3gdjy4p~CyqoWv-d4SUZw2Y2H9THgzCFgMDgjYvnuM4FOfOz8v8b2aiO27FYgQUsIP7OAz0QO2ydxxQR1T9jZk3b0fYzxByyN7SytMia08qXtTqg1T9DUjKixmtpyfalqub-cxpMCqR~mSkWi5aaaLH1Q3bcYsvFeflKtaQgaJonWTHjnLbLMtxuHGOJ7tjuRKzoeZDfACHOsiz3Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 0px -167.766px / 100% 139.922% no-repeat;
 background-repeat: no-repeat;
 background-position: center center;
 }
