@@ -517,6 +517,10 @@ margin-bottom: 32px;
         height: 25px;
         content: normal;
     }
+    .customer {
+        width: 1440px;
+        height: 3200px;
+    }
      section > .customer-text {
         width: 183;
         color: var(--NAVY-BLUE, #2E2F42);
@@ -532,10 +536,13 @@ text-transform: capitalize;
 margin-top: 120px;
     }
     .customer .customer-icon {
-        width: 1440px;
-        height: 3200px;
+        width: 1128px;
+        height: 88px;
         background: #FFF;
-        background: #FFF;
+        display: inline-flex;
+align-items: flex-start;
+gap: 24px;
+margin-left: 156px;
     }
     footer span {
 width: 44px;
