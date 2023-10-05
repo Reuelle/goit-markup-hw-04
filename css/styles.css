@@ -519,7 +519,6 @@ margin-bottom: 32px;
     }
     .customer {
         width: 1440px;
-        height: 3200px;
     }
      section > .customer-text {
         width: 183;
@@ -534,6 +533,8 @@ line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
 margin-top: 120px;
+display: inline-block;
+margin-left: 629px;
     }
     .customer .customer-icon {
         width: 1128px;
@@ -543,7 +544,54 @@ margin-top: 120px;
 align-items: flex-start;
 gap: 24px;
 margin-left: 156px;
+margin-top: 72px;
+margin-bottom: 120px;
     }
+    .customer-icon img {
+        margin-top: 16px;
+    }
+    .customer-icon > .logo-1 {
+        width: 168px;
+height: 88px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    }
+    .customer-icon > .logo-2 {
+        width: 168px;
+        height: 88px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+            }
+            .customer-icon > .logo-3 {
+                width: 168px;
+                height: 88px;
+                flex-shrink: 0;
+                border-radius: 4px;
+                border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+                    }
+                    .customer-icon > .logo-4 {
+                        width: 168px;
+                        height: 88px;
+                        flex-shrink: 0;
+                        border-radius: 4px;
+                        border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+                            }
+                            .customer-icon > .logo-5 {
+                                width: 168px;
+                                height: 88px;
+                                flex-shrink: 0;
+                                border-radius: 4px;
+                                border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+                                    }  
+                                    .customer-icon > .logo-6 {
+                                        width: 168px;
+                                        height: 88px;
+                                        flex-shrink: 0;
+                                        border-radius: 4px;
+                                        border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+                                            }
     footer span {
 width: 44px;
 height: 21px;
@@ -558,6 +606,22 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 width: 145px;
 box-sizing: border-box;
+    }
+    footer > .social {
+color: var(--WHITE, #FFF);
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+box-sizing: border-box;
+width: 96px;
+height: 24px;
+display: flexbox;
+padding-top: 100px;
+margin-left: 540px;
     }
     a[title="End"]{
         width: 71px;
@@ -576,10 +640,11 @@ margin-top: 101px;
     }
     footer {
         width: 1440px;
+        height: 312px;
         flex-shrink: 0;
         background: var(--NAVY-BLUE, #2E2F42);
     }
-    footer > p {
+    footer > .last {
         color: var(--CLOUD, #F4F4FD);
         /* Body */
         font-family: Roboto;
@@ -589,11 +654,33 @@ margin-top: 101px;
         line-height: 24px; /* 150% */
         letter-spacing: 0.32px;
         width: 264px;
-        height: 312px;
+        height: 100px;
         flex-shrink: 0;
         margin-left: 156px;
-        padding-top: 140px;
+        margin-top: 17px;
+        margin-bottom: 100px;
+        display: flex;
         box-sizing: border-box;
+        background-color: tomato;
+    }
+    footer > .footer-icon {
+        width: 208px;
+        height: 40px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 540px;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    footer > .footer-instagram {
+        margin-left: 540px;
+        margin-top: 16px;
+    }
+    footer > .footer-twitter {
+        margin-left: 16px;
+    }
+    footer > .footer-facebook {
+        margin-left: 16px;
     }
     footer > a {
         text-decoration: none;
