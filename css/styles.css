@@ -654,10 +654,10 @@ margin-top: 101px;
         line-height: 24px; /* 150% */
         letter-spacing: 0.32px;
         width: 264px;
-        height: 100px;
+        height: 80px;
         flex-shrink: 0;
         margin-left: 156px;
-        margin-top: 17px;
+        margin-top: 0px;
         margin-bottom: 100px;
         display: flex;
         box-sizing: border-box;
