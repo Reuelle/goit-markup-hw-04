@@ -606,12 +606,15 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 box-sizing: border-box;
     }
+<<<<<<< HEAD
     footer > .container-footer {
         display: flex;
         justify-content: space-between;
         margin-top: 101px;
         box-sizing: border-box;
     }
+=======
+>>>>>>> ffd9714f8c4654e3c26e5b01cdfffa028da2f6ef
     div > .social {
 color: var(--WHITE, #FFF);
 /* Body Medium */
@@ -642,6 +645,10 @@ text-transform: uppercase;
 margin-left: 156px;
 margin-top: 101px;
 text-decoration: none;
+<<<<<<< HEAD
+=======
+box-sizing: border-box;
+>>>>>>> ffd9714f8c4654e3c26e5b01cdfffa028da2f6ef
     }
     footer {
         width: 1440px;
@@ -665,7 +672,10 @@ text-decoration: none;
         height: 80px;
         flex-shrink: 0;
         margin-left: 156px;
+<<<<<<< HEAD
         box-sizing: border-box;
+=======
+>>>>>>> ffd9714f8c4654e3c26e5b01cdfffa028da2f6ef
         margin-top: 14px;
     }
     .container-icon > .footer-icon {
@@ -673,7 +683,11 @@ text-decoration: none;
         height: 40px;
         display: flex;
         margin-top: 30px;
+<<<<<<< HEAD
         margin-left:120px;
+=======
+        margin-left: 120px;
+>>>>>>> ffd9714f8c4654e3c26e5b01cdfffa028da2f6ef
         box-sizing: border-box;
         justify-content: space-between;
     }
