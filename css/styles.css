@@ -181,7 +181,12 @@ margin-left: 636px;
 margin-top: 48px;
 }
 .goal {
-    display: flex;
+    display: inline-flex;
+    width: 1440px;
+height: 3200px;
+background: #FFF;
+align-items: flex-start;
+justify-content: space-between;
 }
 
 .strategy h3 { 
@@ -205,7 +210,6 @@ padding-left: 0px;
 .strategy {
     margin-top: 120px;
     margin-left: 156px;
-    display: block;
 }
 .first > li {
     width: 264px;
@@ -230,22 +234,9 @@ li > p {
     letter-spacing: 0.32px;
     padding-top: 8px;
 }
-.punctuality {
-    margin-top: 120px;
-    margin-left: 24px;
-    display: block;
-}
-.second > .clock-box {
-    width: 264px;
-    height: 112px;
-    padding-left: 150px;
-    padding-top: 24px;
-    flex-shrink: 0;
-    border-radius: 4px;
-background: var(--CLOUD, #F4F4FD);
-}
-.punctuality h3 {
+.punctuality h3 { 
     color: var(--NAVY-BLUE, #2E2F42);
+
     /* Header 3 */
     font-family: Roboto;
     font-size: 20px;
@@ -255,52 +246,28 @@ background: var(--CLOUD, #F4F4FD);
     letter-spacing: 0.4px;
     width: 264px;
     margin-top: 8px;
+}
+.punctuality ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
     }
-    .punctuality ul {
-        list-style-type: none;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    .diligence {
-        margin-top: 120px;
-        margin-left: 24px;
-        display: block;
-    }
-    .diligence h3 {
-        color: var(--NAVY-BLUE, #2E2F42);
-    /* Header 3 */
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.4px;
-    width: 264px;
-    margin-top: 8px;
-    }
-    .third > i {
-        width: 264px;
-        color: var(--SLATE, #434455);
-    /* Body */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-    }
-    .diligence ul {
-        list-style-type: none;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    .Technology {
+    .punctuality {
         margin-top: 120px;
         margin-left: 24px;
     }
-    .Technology h3 {
+    .second > li {
         width: 264px;
+        height: 112px;
+        padding-left: 100px;
+        padding-top: 24px;
+        flex-shrink: 0;
+        border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    }
+    .diligence h3 { 
         color: var(--NAVY-BLUE, #2E2F42);
+    
         /* Header 3 */
         font-family: Roboto;
         font-size: 20px;
@@ -308,36 +275,55 @@ background: var(--CLOUD, #F4F4FD);
         font-weight: 500;
         line-height: 24px; /* 120% */
         letter-spacing: 0.4px;
-    }
-    
-    .Technology li {
         width: 264px;
-        color: var(--SLATE, #434455);
-
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.32px;
+        margin-top: 8px;
     }
-    .Technology ul {
+    .diligence ul {
         list-style-type: none;
         margin-left: 0px;
         padding-left: 0px;
+        }
+        .diligence {
+            margin-top: 120px;
+            margin-left: 24px;
+        }
+        .third > li {
+            width: 264px;
+            height: 112px;
+            padding-left: 100px;
+            padding-top: 24px;
+            flex-shrink: 0;
+            border-radius: 4px;
+        background: var(--CLOUD, #F4F4FD);
+        }
+        .Technology h3 { 
+            color: var(--NAVY-BLUE, #2E2F42);
         
-    }
-    ul > .astronaut-box {
-        width: 264px;
-        height: 112px;
-        flex-shrink: 0;
-        border-radius: 4px;
-    background: var(--CLOUD, #F4F4FD);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    }
+            /* Header 3 */
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 120% */
+            letter-spacing: 0.4px;
+            width: 264px;
+            margin-top: 8px;
+        }
+        .Technology ul {
+            list-style-type: none;
+            margin-left: 0px;
+            padding-left: 0px;
+            }
+           
+            .fourth > li {
+                width: 264px;
+                height: 112px;
+                padding-left: 100px;
+                padding-top: 24px;
+                flex-shrink: 0;
+                border-radius: 4px;
+            background: var(--CLOUD, #F4F4FD);
+            }
     .image > h2 {
         width: 324px;
         color: var(--NAVY-BLUE, #2E2F42);
