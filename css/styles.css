@@ -183,6 +183,9 @@ margin-top: 48px;
 .goal {
     display: flex;
 }
+.strategy {
+    display: block;
+}
 
 .strategy h3 { 
     width: 264px;
@@ -207,9 +210,10 @@ ul > .antenna-box {
     flex-shrink: 0;
     border-radius: 4px;
 background: var(--CLOUD, #F4F4FD);
-display: inline-flex;
+display: flex;
 align-items: center;
 justify-content: center;
+background-color: tomato;
 }
 .strategy {
     margin-top: 120px;
