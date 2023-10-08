@@ -135,11 +135,11 @@ a.connect:hover, a.connect:active {
 }
 .main-page {
 background: url("../Dark-bg.jpg");
+background: url("../people-office 1(2).jpg"), no-repeat;
 width: 1440px;
 height: 600px;
 flex-shrink: 0;
 align-items: center;
-background: url("../people-office 1(2).jpg"), no-repeat;
 background-repeat: no-repeat;
 background-position: center center;
 }
