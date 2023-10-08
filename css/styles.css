@@ -185,6 +185,7 @@ display: flex;
 width: 1440px;
 height: 230px;
 background: #FFF;
+padding-bottom: 120px;
 }
 
 .strategy h3 { 
@@ -341,7 +342,7 @@ li > p {
         letter-spacing: 0.72px;
         text-transform: capitalize;
         text-align: center;
-        margin-top: 140px;
+        margin-top: 180px;
         margin-left: 559px;
         box-sizing: content-box;
     }
