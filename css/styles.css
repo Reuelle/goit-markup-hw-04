@@ -134,12 +134,12 @@ a.connect:hover, a.connect:active {
     list-style-type: none;
 }
 .main-page {
-background-color: var(--GREY, rgba(46, 47, 66, 0.70));
+background: url("../Dark-bg.jpg");
 width: 1440px;
 height: 600px;
 flex-shrink: 0;
 align-items: center;
-background: url("../people-office 1(2).jpg"), lightgray 0px -167.766px / 100% 139.922% no-repeat;
+background: url("../people-office 1(2).jpg"), no-repeat;
 background-repeat: no-repeat;
 background-position: center center;
 }
