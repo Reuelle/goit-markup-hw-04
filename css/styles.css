@@ -498,7 +498,7 @@ margin-bottom: 32px;
     .customer {
         width: 1440px;
     }
-     section > .customer-text {
+     div > .customer-text {
         width: 183;
         color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
