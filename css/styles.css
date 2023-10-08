@@ -210,16 +210,14 @@ padding-left: 0px;
     margin-left: 156px;
     display: block;
 }
-ul > .antenna-box {
+div > .antenna-box {
     width: 264px;
     height: 112px;
-    padding-left: 100px;
     padding-top: 24px;
     flex-shrink: 0;
     border-radius: 4px;
 background: var(--CLOUD, #F4F4FD);
-box-sizing: content-box;
-background-color: tomato;
+padding-left: 100px;
 }
 
 
@@ -259,14 +257,14 @@ li > p {
         margin-top: 120px;
         margin-left: 24px;
     }
-    .second > span {
+    div > .clock-box {
         width: 264px;
         height: 112px;
-        padding-left: 100px;
         padding-top: 24px;
         flex-shrink: 0;
         border-radius: 4px;
     background: var(--CLOUD, #F4F4FD);
+    padding-left: 100px;
     }
     .diligence h3 { 
         color: var(--NAVY-BLUE, #2E2F42);
@@ -290,14 +288,14 @@ li > p {
             margin-top: 120px;
             margin-left: 24px;
         }
-        .third > span {
+        div > .diagram-box {
             width: 264px;
             height: 112px;
-            padding-left: 100px;
             padding-top: 24px;
             flex-shrink: 0;
             border-radius: 4px;
         background: var(--CLOUD, #F4F4FD);
+        padding-left: 100px;
         }
         .Technology h3 { 
             color: var(--NAVY-BLUE, #2E2F42);
@@ -321,14 +319,14 @@ li > p {
                 margin-top: 120px;
                 margin-left: 24px;
             }
-            .fourth > span {
+            div > .astronaut-box {
                 width: 264px;
                 height: 112px;
-                padding-left: 100px;
                 padding-top: 24px;
                 flex-shrink: 0;
                 border-radius: 4px;
             background: var(--CLOUD, #F4F4FD);
+            padding-left: 100px;
             }
     .image > h2 {
         width: 324px;
