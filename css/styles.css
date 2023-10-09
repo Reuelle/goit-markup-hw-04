@@ -12,14 +12,13 @@ background: #FFF;
 header {
 width: 1440px;
 height: 72px;
-justify-content: center;
-align-items: center;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 flex-shrink: 0;
 }
 .headlist {
-    display: inline;
+    display: flex;
+    flex-direction: row;
 }
 .webpage span {
 width: 44px;
@@ -34,23 +33,25 @@ font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-display: inline;
 margin-top: 24px;
 }
-ul .connect-1 {
+.headlist .connect-1 {
     margin-left: 76px;
     width:  48px;
     height: 24px;
+    display: block;
 }
-ul .connect-2 {
+.headlist .connect-2 {
     margin-left: 40px;
     width:  66px;
     height: 24px;
+    display: block;
 }
-ul .connect-3 {
+.headlist .connect-3 {
     margin-left: 40px;
     width: 67px;
     height: 24px;
+    display: block;
 }
 div .contact-info {
     display: flex;
@@ -89,11 +90,12 @@ margin-top: 25.5px;
 }
 div .main {
     display: flex;
+    margin-left: 347px;
+    margin-bottom: 24px;
 }
  .main > ul {
     margin-left: 0;
     padding-left: 0;
-    margin-top: 24px;
     text-decoration: none;
 }
 .main > ul {
