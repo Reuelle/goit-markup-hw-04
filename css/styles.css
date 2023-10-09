@@ -16,9 +16,8 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 flex-shrink: 0;
 }
-.headlist {
+header {
     display: flex;
-    flex-direction: row;
 }
 a > span {
     color: var(--IRIS, #4D5AE5);
@@ -29,7 +28,9 @@ a > span {
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: inline;
+}
+.main {
+    display: flex;
 }
 .headlist .connect-1 {
     margin-left: 76px;
