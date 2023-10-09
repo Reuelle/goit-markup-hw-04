@@ -138,7 +138,13 @@ div .main {
 .contact-info a {
  text-decoration: none;
 }
-a.connect:hover, a.connect:active {
+a.connect-1:hover, a.connect-1:active {
+    color: darkblue;
+}
+a.connect-2:hover, a.connect-2:active {
+    color: darkblue;
+}
+a.connect-3:hover, a.connect-3:active {
     color: darkblue;
 }
 
@@ -174,7 +180,6 @@ background-position: center center;
 }
  .overlay {
     width: 100%;
-    height: 100vh;
     background: var(--GREY, rgba(46, 47, 66, 0.70));
 }
 
