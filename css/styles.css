@@ -133,7 +133,7 @@ a.connect:hover, a.connect:active {
 .contact-info ul {
     list-style-type: none;
 }
-.main-page {
+.mainpage {
 width: 1440px;
 height: 600px;
 flex-shrink: 0;
@@ -141,8 +141,13 @@ align-items: center;
 background: url("https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1697414400&Signature=UOKmSttpP9FhwiVmMGnFl8uWwL329u-CKXr0QcWM1V9ljKMGfpf4oq0UGDHeQLZlpucGtcAOgEgZp3htMoTSMEaaiipmBSdaFwku7osIxkprTJ~Qp1FJ-srQm5CzEEOS8ZrnN3gdjy4p~CyqoWv-d4SUZw2Y2H9THgzCFgMDgjYvnuM4FOfOz8v8b2aiO27FYgQUsIP7OAz0QO2ydxxQR1T9jZk3b0fYzxByyN7SytMia08qXtTqg1T9DUjKixmtpyfalqub-cxpMCqR~mSkWi5aaaLH1Q3bcYsvFeflKtaQgaJonWTHjnLbLMtxuHGOJ7tjuRKzoeZDfACHOsiz3Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"), lightgray 0px -167.766px / 100% 139.922% no-repeat;
 background-repeat: no-repeat;
 background-position: center center;
-background-color: var(--GREY, rgba(46, 47, 66, 0.70));
 }
+div > .mainpage-overlay {
+    width: 100%;
+    height: 100vh;
+    background: var(--GREY, rgba(46, 47, 66, 0.70));
+}
+
 h1 {
     width: 496px;
     color: var(--WHITE, #FFF);
@@ -179,6 +184,7 @@ background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 margin-left: 636px;
 margin-top: 48px;
+border: none;
 }
 .goal {
     display: flex;
