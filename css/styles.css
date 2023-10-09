@@ -130,7 +130,6 @@ display: block;
 div .main {
     display: flex;
     margin-left: 347px;
-    margin-bottom: 24px;
 }
  .main > ul {
     margin-left: 0;
