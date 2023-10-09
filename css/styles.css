@@ -677,6 +677,3 @@ box-sizing: border-box;
     footer > a {
         text-decoration: none;
     }
-    footer {
-        margin-bottom: 0 !important;
-    }
