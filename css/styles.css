@@ -22,7 +22,7 @@ flex-shrink: 0;
 }
 .webpage span {
 width: 44px;
-color: var(--IRIS, #4D5AE5);
+color: green);
 font-family: Raleway;
 font-size: 18px;
 width: 44px;
@@ -74,7 +74,7 @@ text-decoration: none;
 }
 div .webstudio {
 width: 71px;
-color: var(--NAVY-BLUE, #2E2F42);
+color: black;
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -87,6 +87,7 @@ width:  71px;
 height: 21px;
 margin-right: 1169px;
 margin-top: 25.5px;
+display: block;
 }
 div .main {
     display: flex;
