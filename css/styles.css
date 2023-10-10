@@ -147,7 +147,7 @@ a.connect-3:hover, a.connect-3:active {
 }
 
 .contact-info > ul{
-    width: 304px;
+    width: 345px;
     margin-left: 332px;
     padding-left: 0;
     color: var(--SLATE, #434455);
@@ -159,7 +159,6 @@ a.connect-3:hover, a.connect-3:active {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     margin-top: 24px;
-    background-color: tomato;
 }
 .main ul {
     list-style-type: none;
