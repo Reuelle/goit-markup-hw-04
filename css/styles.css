@@ -33,7 +33,6 @@ a > span {
 margin-top: 24px;
 }
 .headlist .connect-1 {
-    margin-left: 76px;
     width:  48px;
     height: 24px;
     display: block;
@@ -125,7 +124,7 @@ display: block;
 position: absolute;
 box-sizing: border-box;
 }
-div .main {
+.main > .contact {
     width: 261px;
     height: 24px;
     display: flex;
