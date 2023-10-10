@@ -16,7 +16,7 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 flex-shrink: 0;
 }
-header {
+.headlist {
     display: flex;
 }
 a > span {
@@ -109,7 +109,6 @@ ul .connect-5 {
 text-decoration: none;
 }
 a[title="studio"] {
-width: 71px;
 color: var(--NAVY-BLUE, #2E2F42);;
 font-family: Raleway;
 font-size: 18px;
@@ -119,15 +118,20 @@ line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 margin-left: 156px;
-width:  71px;
+width:  115px;
 height: 21px;
-margin-right: 1169px;
+margin-top: 25px;
 display: block;
 position: absolute;
+box-sizing: border-box;
 }
 div .main {
+    width: 261px;
+    height: 24px;
     display: flex;
     margin-left: 347px;
+    margin-top: 24px;
+    background-color: tomato;
 }
  .main > a {
     margin-left: 0;
