@@ -30,7 +30,7 @@ a > span {
     text-transform: uppercase;
 }
 .main {
-    display: flex;
+margin-top: 24px;
 }
 .headlist .connect-1 {
     margin-left: 76px;
@@ -46,7 +46,6 @@ a > span {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     display: block;
-    margin-top: 2px;
 }
 .headlist .connect-2 {
     margin-left: 40px;
@@ -78,7 +77,6 @@ a > span {
 }
 div .contact-info {
     display: flex;
-    margin-top: 24px;
 }
 ul .connect-4 {
     margin-left: 332px;
@@ -92,7 +90,6 @@ ul .connect-4 {
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
-    margin-top: 24px;
 }
 ul .connect-5 {
     margin-left: 40px;
@@ -107,7 +104,6 @@ ul .connect-5 {
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
-    margin-top: 24px;
 }
 .webpage a {
 text-decoration: none;
@@ -126,7 +122,6 @@ margin-left: 156px;
 width:  71px;
 height: 21px;
 margin-right: 1169px;
-margin-top: 25.5px;
 display: block;
 position: absolute;
 }
@@ -134,12 +129,12 @@ div .main {
     display: flex;
     margin-left: 347px;
 }
- .main > ul {
+ .main > a {
     margin-left: 0;
     padding-left: 0;
     text-decoration: none;
 }
-.contact-info a {
+.contact-info ul {
  text-decoration: none;
 }
 a.connect-1:hover, a.connect-1:active {
@@ -162,7 +157,6 @@ a.connect-3:hover, a.connect-3:active {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     margin-top: 24px;
-    position: absolute;
 }
 .main ul {
     list-style-type: none;
